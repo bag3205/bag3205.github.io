@@ -8,7 +8,7 @@ function handleImgLoad(){
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `Images/${imgNumber + 1}.jpg`;
+    image.src = `images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.prepend(image);
 }
